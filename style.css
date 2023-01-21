@@ -1,0 +1,55 @@
+*{
+    background-color: rgb(124, 100, 178);
+    font-family:"Berlin Sans FB", "Tempus Sans ITC", "Arial";
+    padding: 0%;
+    margin: 0%;
+    color: whitesmoke;
+}
+#title h1{
+    color: rgb(219, 219, 0);
+    background-color: rgb(66, 13, 66);
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+}
+#body{
+    font-size: 250%;
+    display: flex;
+    flex-direction: column;
+}
+#displaybox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#displaybox div {
+    height: 7rem;
+    width: 7rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem 0 1rem 0;
+    background-color: rgb(197, 141, 250);
+    font-size: 250%;
+    border: 0;
+    border-radius: 2rem;
+    color: black;
+}
+#score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#score div {
+    text-align: center;
+    width: 50%;
+}
+#body h1{
+    text-align: center;
+    padding:1rem;
+    font-size: 100%;
+}
+#action{
+    display: flex;
+    justify-content: space-around;
+    font-size: 200%;
+}
+
